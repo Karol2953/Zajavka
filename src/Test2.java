@@ -16,7 +16,7 @@
 
 */
 
-public class lengthOfString {
+public class Test2 {
     public static void main(String[] args) {
 
         //1. Napisz program, który dla podanego Stringa przypisze wartość jego długości do zmiennej, następnie
