@@ -1,0 +1,27 @@
+public class loop {
+    public static void main(String[] args) {
+
+        first_loop:
+        for (int i = 0; i <= 10; i++) {
+            System.out.println("first loop" + " i  = " + i++);
+            second_loop:
+            for (int j = 0; j < 4; j++) {
+                System.out.println("second loop" + " i =" + i + " " + "j= " + j);
+                third_loop:
+                for (int k = 0; k < 4; k++) {
+                    if (j == 2) {
+                        System.out.println(" continue j==2");
+                        continue first_loop;
+                    }
+                    if (k == 1) {
+                        System.out.println(" continue k==1");
+                        break second_loop;
+                    }
+                    System.out.println("third loop" + " i =" + i + " " + " j= " + j + "k= " + k);
+                }
+            }
+        }
+    }
+}
+
+
