@@ -1,11 +1,29 @@
 package Test5;
 
-import java.util.Arrays;
-
 public class palindrom {
     public static void main(String[] args) {
-        String word = "oko";
-        boolean b = word.charAt(0) == word.charAt(2);
-        System.out.println(b);
+
+        isPalindrom();
+        System.out.println(isPalindrom());
+
+    }
+
+    public static boolean isPalindrom() {
+
+        String word = "Akta generała ma mała renegatka";
+        word = word.toLowerCase();    // delete big letter;
+        word = word.replaceAll(" ", "");  // delete spaces between words;
+
+
+        for (int i = 0; i < word.length() / 2; i++) {
+            if (word.charAt(i) != word.charAt(word.length() - i - 1)) {
+                System.out.println(word.charAt(i));
+                return false;
+            }
+
+        }
+        return true;
     }
 }
+
+
