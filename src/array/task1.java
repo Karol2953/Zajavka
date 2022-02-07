@@ -16,7 +16,7 @@ public class task1 {
         //sort.sort();
         //average.average();
         median.median();
-        // TODO: 03.02.2022 TODO: 01.02.2022
+        //
 
     }
 
