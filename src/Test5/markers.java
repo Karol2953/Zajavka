@@ -10,7 +10,7 @@ public class markers {
         String [] markers = {"red", "green", "blue", "black", "yellow", "brown"};
 
 
-        int numberOfLine = 6;
+        int numberOfLine = 10;
 
         double x = numberOfLine % markers.length;
         System.out.println(x);
@@ -28,12 +28,12 @@ public class markers {
             }
             System.out.println("------------------end----------------");
         }
-        if (x == 0) System.out.println("red");
-        if (x == 1) System.out.println("green");
-        if (x == 2) System.out.println("blue");
-        if (x == 3) System.out.println("black");
-        if (x == 4) System.out.println("yellow");
-        if (x == 5) System.out.println("brown");
+        if (x == 1) System.out.println("red");
+        if (x == 2) System.out.println("green");
+        if (x == 3) System.out.println("blue");
+        if (x == 4) System.out.println("black");
+        if (x == 5) System.out.println("yellow");
+        if (x == 6) System.out.println("brown");
 
     }
 }
