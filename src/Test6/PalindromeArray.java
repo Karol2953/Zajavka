@@ -21,8 +21,8 @@ public class PalindromeArray {
         System.out.println(result_2);
 
         if (result.equals(result_2)) {
-            System.out.println("|to jest palindor");
+            System.out.println("That is palindrome");
         }
-        else System.out.println("Nie jest"); ;
+        else System.out.println("Nie jest");
     }
 }
