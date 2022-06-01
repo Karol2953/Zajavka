@@ -8,10 +8,10 @@ import java.util.Arrays;
 
 public class duplicate_sum_array {
     public static void main(String[] args) {
-         excerise4();
+         excersise4();
     }
 
-    private static void excerise4() {
+    private static void excersise4() {
         int [] arr = {3 ,3 ,2,2, 1,5,2,1,5,6};
         System.out.println("Original" + Arrays.toString(arr));
 
@@ -45,7 +45,7 @@ public class duplicate_sum_array {
     }
 
     private static boolean elementPresentIn (final int [] duplicatesArr,
-                                             final int elementToChceck,
+                                             final int elementToCheck,
                                              final int duplicateIndex)
     {
 
