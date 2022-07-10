@@ -29,7 +29,7 @@ public class duplicate_sum_array {
         }
 
         int [] duplicatesArrResized = new int[duplicateIndex];
-        assignArray(duplicatesArrResized, duplicatesArr);
+       // assignArray(duplicatesArrResized, duplicatesArr);
         System.out.println("Duplicates: " + Arrays.toString(duplicatesArr));
         System.out.println("Duplicates resized: " + Arrays.toString(duplicatesArrResized));
     }
@@ -49,6 +49,7 @@ public class duplicate_sum_array {
                                              final int duplicateIndex)
     {
 
+        return false;
     }
 
 
