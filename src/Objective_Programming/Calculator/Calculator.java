@@ -5,9 +5,10 @@ import java.util.Objects;
 public class Calculator {
     public String name;
 
-//    public Calculator(String name){
-//        this.name = name;
-//    }
+
+    public Calculator(String name){
+        this.name = name;
+    }
 //        public boolean equals(Object obj){
 //        if (this ==obj) {
 //            return true;
