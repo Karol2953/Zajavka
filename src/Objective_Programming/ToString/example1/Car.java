@@ -1,4 +1,4 @@
-package Objective_Programming.ToString;
+package Objective_Programming.ToString.example1;
 
 public class Car {
     private String company;

@@ -1,18 +1,21 @@
-package Objective_Programming.ToString.example2;
+package Objective_Programming.Inhertance.example1;
 
 public class Building {
 
     public String adress = "St. Paul II";
 
-    public int number = 12;
-    public Flat flat = new Flat();
+    public int number = 14;
+
+    public void print(){
+        System.out.println("Im building");
+    }
+
 
     @Override
     public String toString() {
         return "Building{" +
                 "adress='" + adress + '\'' +
                 ", number=" + number +
-                ", flat=" + flat +
                 '}';
     }
 }
