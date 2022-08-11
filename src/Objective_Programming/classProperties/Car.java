@@ -1,11 +1,13 @@
-package Objective_Programming;
+package Objective_Programming.classProperties;
 
 import java.util.Objects;
 
 public class Car {
 
     private String company;
+
     private String model;
+
     private int ProductionYear;
 
     public Car(String company, String model, int ProductionYear) {
@@ -54,5 +56,14 @@ public class Car {
         int result = company != null ? company.hashCode() : 0;
         result = 31 * result + (model != null ? model.hashCode() : 0);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "company='" + company + '\'' +
+                ", model='" + model + '\'' +
+                ", ProductionYear=" + ProductionYear +
+                '}';
     }
 }

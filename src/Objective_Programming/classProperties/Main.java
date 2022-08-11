@@ -1,8 +1,8 @@
-package Objective_Programming;
+package Objective_Programming.classProperties;
 
-public class equalsMethod {
+public class Main {
     public static void main(String[] args) {
-        equalsMethod.equalsExample();
+        Main.equalsExample();
     }
 
     private static void equalsExample(){
@@ -11,6 +11,9 @@ public class equalsMethod {
         Car car3 =new Car("Volkswagen", "Passat", 2015);
         Car car4 =new Car("Audi", "A4", 2003);
         Car car5 =new Car("Audi", "A5", 2003);
+
+        String printtableCar1 = car1.toString();
+        System.out.println(printtableCar1);
 
 
        // System.out.println(car4 == car5); //false (different object in memory)
@@ -25,11 +28,13 @@ public class equalsMethod {
 //        System.out.println(car4.equals(dog));
 //        System.out.println(car4.equals(car3));
 
-        System.out.println("has1: " + car1.hashCode());
-        System.out.println("has2: " + car2.hashCode());
-        System.out.println("has3: " + car3.hashCode());
-        System.out.println("has4: " + car4.hashCode());
-        System.out.println("has5: " + car5.hashCode());
+//        System.out.println("hash1: " + car1.hashCode());
+//        System.out.println("hash2: " + car2.hashCode());
+//        System.out.println("hash3: " + car3.hashCode());
+//        System.out.println("hash4: " + car4.hashCode());
+//        System.out.println("hash5: " + car5.hashCode());
+
+
 
     }
 }
