@@ -20,7 +20,7 @@ public class Excersises  {
 
         int start = 1200;
 
-        Function [] functions = new Function[10];
+        /*Function [] functions = new Function[10];
 
         for (int i = 0; i < functions.length; i++) {
             if (i % 2 == 0) {
@@ -36,10 +36,31 @@ public class Excersises  {
         for (Function function : functions){
             start += function.calculate(start);
             System.out.println(start);
+        }*/
+
+        FunctionClass [] functionClasses = new FunctionClass[10];
+        for (int i = 0; i < functionClasses.length; i++) {
+            if (i % 2 == 0){
+                functionClasses[i] = new HalfCalculator();
+            }
+            else {
+                functionClasses[i] = new QuarterCalculator();
+            }
+
         }
-    }
+        for (FunctionClass function_Class : functionClasses){
+            start += function_Class.calculate(start);
+            System.out.println(start);
+        }
 
     }
+
+
+
+
+
+
+}
 
 
 

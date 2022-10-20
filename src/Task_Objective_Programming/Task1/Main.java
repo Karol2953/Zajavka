@@ -9,7 +9,7 @@ Don't allow that new array have null
     public static void main(String[] args) {
         Book book1 = new Book("Predator", 156890, "Pablo Picasso");
         Book book2 = new Book("Harry Potter", 290876, "Pawarotti Marczello");
-        Book book3 = new Book("HWomenOfMafia", 123567, "Krzysztof Krawczyk");
+        Book book3 = new Book("WomenOfMafia", 123567, "Krzysztof Krawczyk");
         Book book4 = new Book("Pinokio", 876542, "Maryla Rodowicz");
         Book book5 = new Book("Witcher", 943211, "Mona Lisa");
 

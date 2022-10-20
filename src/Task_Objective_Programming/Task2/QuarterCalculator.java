@@ -5,8 +5,8 @@ public class QuarterCalculator extends FunctionClass implements Function {
     public int calculate(int arg) {
         return arg / 4;
     }
-    public QuarterCalculator(){
+   /* public QuarterCalculator(){
         System.out.println("quarter");
-    }
+    }*/
 }
 

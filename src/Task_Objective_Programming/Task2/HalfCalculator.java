@@ -5,7 +5,7 @@ public class HalfCalculator extends FunctionClass implements Function {
     public int calculate(int arg) {
         return arg / 2;
     }
-    public HalfCalculator() {
+   /* public HalfCalculator() {
         System.out.println("half");
-    }
+    }*/
 }
