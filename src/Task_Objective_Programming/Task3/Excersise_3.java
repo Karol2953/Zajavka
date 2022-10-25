@@ -46,6 +46,7 @@ public class Excersise_3 {
             }
         }
         temp[j] = arr[lenght - 1];
+        System.out.println(Arrays.toString(temp));
         return temp;
 
 
