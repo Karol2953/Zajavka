@@ -1,24 +1,47 @@
 package array;
 
+import java.util.Arrays;
+
+import static java.util.Arrays.*;
+
 public class testclass {
 
     public static void main(String[] args) {
-            int [] numbers = new int[] {5,7,4,2,2,1,4,5,6,1,2};
+        int[] numbers = new int[]{15, 7, 4, 2, 2, 5, 4, 5, 5, 1, 2,3,21,2,5,6,7,2,2,2,2,2,2};
 
-            System.out.println("Array before sorting array[i]");
-
-            for (int i = 0; i < 10 ; i++) {
-                System.out.print(numbers[i] + " ");
-                for (int j = i+1; j < 10 ; j++) {
-                    if (numbers[i] > numbers[j]){
-                        int tmp = 0;
-
-                    }
-
+        int counter = 0;
+        int searchingNumber = 2;
+        for (int i = 0; i < numbers.length; i++) {
+            {
+                if (numbers[i] == searchingNumber) {
+                    counter++;
                 }
             }
+        }
+
+        System.out.println("This is counter: " + counter);
+
+        int[] searchingNumberArray = new int[counter];
+
+        for (int i = 0; i < searchingNumberArray.length; i++) {
+            searchingNumberArray[i] = searchingNumber;
+        }
+
+        /*fill(searchingNumberArray, searchingNumber);*/
+
+        System.out.println(Arrays.toString(searchingNumberArray));
 
 
+        for (int i = 0; i < searchingNumberArray.length; i++) {
+            System.out.print(searchingNumberArray[i]);
+        }
     }
-
 }
+
+
+
+
+
+//:)
+
+
