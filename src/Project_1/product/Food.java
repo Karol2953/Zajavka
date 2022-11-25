@@ -1,4 +1,2 @@
-package Project_1.product;
-
-public abstract class Food {
+package Project_1.product;public class Food {
 }
