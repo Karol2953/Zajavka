@@ -6,11 +6,16 @@ import Project_1.product.Sandwitch;
 import Project_1.product.Soup;
 
 
-public class Producent extends Person implements ProducingMan {
+public class Producer extends Person implements ProducingMan {
 
 
-    public Producent(String name, String surname) {
+    public Producer(String name, String surname) {
         super(name, surname);
+    }
+
+    @Override
+    public String getExpectations() {
+        return "no expectations";
     }
 
     @Override
@@ -28,8 +33,7 @@ public class Producent extends Person implements ProducingMan {
           case "soup":
               return new Soup(productName,this ,consumingMan);
 
-          default:
-              return new Sandwitch(productName,this ,consumingMan);
+          default: return new Sandwitch(productName,this ,consumingMan);
       }
     }
 

@@ -1,7 +1,7 @@
 package abstractClass.Cabrio;
 
-public class Mercedes extends Cabrio{
-    public void openRoof(){
-
+public class Animal {
+    public void printName(String name){
+        System.out.println("Animal");
     }
 }
