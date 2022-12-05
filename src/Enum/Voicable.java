@@ -1,2 +1,5 @@
-package Enum;public interface Voicable {
+package Enum;
+
+public interface Voicable {
+    String giveVoice();
 }
