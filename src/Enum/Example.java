@@ -47,6 +47,7 @@ public enum Example implements Voicable {
         return this.massage;
     }
 
-    public abstract String sing();
+    public abstract String sing()
+            ;
 }
 
