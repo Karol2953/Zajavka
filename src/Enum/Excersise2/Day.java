@@ -1,4 +1,7 @@
-package Enum.Excersise1;
+package Enum.Excersise2;
+
+import Enum.Excersise1.Weekend;
+import Enum.Excersise1.WorkingDay;
 
 public enum Day implements Weekend, WorkingDay {
     MONDAY("MON", true),
